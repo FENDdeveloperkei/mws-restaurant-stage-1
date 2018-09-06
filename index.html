@@ -41,6 +41,13 @@
   <script type="application/javascript" charset="utf-8" src="js/main.js"></script>
   <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&libraries=places&callback=initMap"></script> -->
 
+  <script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoiZGV2ZWxvcGVyc2tlaSIsImEiOiJjamxyNjBwZXowMW8zM3ZyY3IyYjdzdjcwIn0.cxYJVRiKVA86HNV8qGhdTA';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v10'
+  });
+</script>
 
   <footer id="footer">
     Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
